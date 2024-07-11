@@ -1,0 +1,170 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  font-family: monospace;
+}
+
+body {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+ul, ol {
+  padding: 0;
+}
+
+h1 {
+  padding: 1em;
+  color: #1b1b1b;
+}
+
+h2, h3, h4, h5, h6 {
+  color: #1b1b1b;
+  padding-left: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 2em;
+}
+
+p {
+  padding-left: 3rem;
+  font-size: large;
+  color: #1b1b1b;
+}
+
+header {
+  text-align: center;
+  padding: 1em;
+  background-color: rgb(121, 121, 121);
+  color: #1b1b1b;
+  border-bottom: 1px solid #1b1b1b;
+  font-size: 1.5em;
+}
+
+.nav-li {
+  list-style: none;
+  margin-left: 0;
+  border-bottom: #1b1b1b;
+  color: #1b1b1b;
+}
+
+.nav-ul {
+  font-size: 1.5em;
+  background-color: rgb(121, 121, 121);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-li-a {
+  padding: 0.6em 0.2rem;
+  display: block;
+  color: White;
+}
+
+.nav-active {
+  color: #1b1b1b;
+}
+
+.nav-ul a:hover, .nav-ul a:focus, .nav-ul a:active {
+  background-color: #1b1b1b;
+  color: rgb(121, 121, 121);
+}
+
+.container {
+  border: 3px solid #1b1b1b;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.band-name {
+  background-image: url("images/Logo-1.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding: 3em;
+  font-size: 3em;
+}
+
+.mainH1 {
+  display: flex;
+  justify-content: center;
+  padding: 3em 3em 0, 0;
+  font-size: 3em;
+}
+
+a {
+  color: inherit;
+}
+
+.miscPic {
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 1em;
+  float: left;
+  width: 15%;
+  background-color: rgb(121, 121, 121);
+}
+
+.endFloat {
+  clear: both;
+}
+
+.centerContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.albumName {
+  font-size: 4em;
+}
+
+.albumPic {
+  width: 40%;
+  float: left;
+  margin: 2em;
+  padding-right: 2em;
+}
+
+ol {
+  color: #1b1b1b;
+  font-size: 1em;
+  margin: 3em;
+}
+
+#BandPic {
+  width: 50%;
+  margin-bottom: 3em;
+}
+
+#page-link-ul {
+  display: flex;
+  flex-direction: column; /* Aligns items vertically */
+  justify-content: center; /* Centers items vertically */
+  align-items: center; /* Centers items horizontally */
+  list-style-type: none; /* Removes default list styling */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+  color: #1b1b1b;
+  font-size: 1.5em;
+}
+
+.page-link-li {
+  color: #1b1b1b;
+  font-size: 1em;
+  margin-bottom: 1em;
+  align-content: center;
+  display: wrap;
+  justify-content: center;
+}/*# sourceMappingURL=ytkstyle.css.map */
