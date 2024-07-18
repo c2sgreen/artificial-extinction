@@ -8,7 +8,7 @@ html{
 $aeGray: rgb(77, 77, 77);
 $neutral: #efefef;
 $themeColor: black;
-$backgroundcolor: rgb(255, 255, 255 0.2);
+$backgroundcolor: rgb(255, 255, 255, 0.2);
 
 body {
     background-image: url('images/background.jpg');
@@ -161,4 +161,41 @@ ol{
     align-content: center;
     display: wrap;
     justify-content: center;
+}
+
+@media screen and (max-width: 480px){
+    .miscPic, .albumPic {
+    
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-bottom: 1em;
+        float: none;
+        width: 70%;
+        
+        
+    }
+    .container {
+        display: wrap;
+        justify-content: center;
+    }
+    h1, h2, h3, h4, h5, h6, p {
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    #BandPic{
+        width: 80%;
+        margin-bottom: 3em;
+        
+    }
+    #page-link-ul{
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 90%;
+        
+    }
+    .imgContainer{
+        display: flex;
+        justify-content: center;
+    }
 }
